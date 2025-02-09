@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(43, 117, 83);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px; /* Adjust space below navbar */
+}
+
+.navbar {
+  width: 100%; /* Full width */
+  background-color: rgb(53, 189, 25);
+  position: fixed; /* Keeps it at the top even when scrolling */
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  z-index: 1000; /* Ensures it stays above other content */
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Aligns items vertically */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 10px; /* Adds spacing between menu items */
+}
+
+.navbar a {
+  color: rgb(43, 117, 83);
+  text-decoration: none;
+  padding: 15px 20px; /* Better clickable area */
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: black;
+  color: white;
+}
+ 

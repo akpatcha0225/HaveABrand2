@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.header {
+    display: flex; 
+    background-color: #FFFFFF; 
+    justify-content: space-between; 
+    /* padding: 30px;  */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    width: max-width; 
+    align-items: center; 
+}
+
+/* .DisplayHead {
+    width: 1280px;
+    
+} */
+
+.text {
+    font-size: 50px; 
+    font-weight: bold; 
+    color: #2B7553;
+    text-align: center; /* Centers text inside its container */
+    display: block; /* Ensures text-align works properly */
+    margin: 50px auto; /* Centers horizontally */
+    width: fit-content; /* Prevents taking full width */
+}
+
+.container{
+    display:flex;
+    align-items:center; 
+    /* flex-direction: row; */
+    width:100%;
+}
+
+header .container .CodeIcon {
+    flex: 0 0 auto; 
+}
+
+header .container .text{
+    flex: 1; 
+    text-align: center; 
+    font-size: 2em; 
+}
+
+header .container .buttons-Cont {
+    display: flex; 
+    gap: 10px; 
+}
+
+.buttons-Cont {
+    margin-left: auto; 
+    display: flex; /* CHANGE DISPLAY*/
+    gap: 10px; 
+}
+
+.LogInbuttons{
+    background-color: #2B7553;
+    border:#FFFFFF;
+    padding: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.5s ease; 
+
+}
+
+.LogInbuttons:hover {
+    background-color: #00e500;
+}
